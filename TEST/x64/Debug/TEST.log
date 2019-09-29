@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\C\codelearn.io\codelearn.io\TEST\Source.cpp(24,6): warning C4101:  'y': unreferenced local variable
+  TEST.vcxproj -> D:\C\codelearn.io\codelearn.io\x64\Debug\TEST.exe

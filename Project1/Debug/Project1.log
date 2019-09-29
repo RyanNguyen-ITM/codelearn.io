@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\C\codelearn.io\codelearn.io\Project1\Source.cpp(118,20): warning C4018:  '<': signed/unsigned mismatch
+D:\C\codelearn.io\codelearn.io\Project1\Source.cpp(120,25): warning C4018:  '<': signed/unsigned mismatch
+D:\C\codelearn.io\codelearn.io\Project1\Source.cpp(124,23): warning C4018:  '<': signed/unsigned mismatch
+D:\C\codelearn.io\codelearn.io\Project1\Source.cpp(161,11): warning C4018:  '<': signed/unsigned mismatch
+D:\C\codelearn.io\codelearn.io\Project1\Source.cpp(168,11): warning C4018:  '<': signed/unsigned mismatch
+  Project1.vcxproj -> D:\C\codelearn.io\codelearn.io\Debug\Project1.exe
