@@ -18,12 +18,10 @@ bool kTraNT(int n) {
 int sumOfThreePrimes(int k)
 {
 	int count = 0;
-	int x = 2;
-	int y = 2;
 	int z;
-	for (; x < k / 3 && x <= y; x++) {
+	for (int x = 2; x <= k / 3; x++) {
 		if (kTraNT(x)) {
-			for (; y < k / 2; y++) {
+			for (int y = x; y < k/2; y++) {
 				if (kTraNT(y)) {
 					z = k - x - y;
 					if (z >= y && kTraNT(z)) {
@@ -32,7 +30,6 @@ int sumOfThreePrimes(int k)
 				}
 			}
 		}
-		y = x + 1;
 	}
 	return count;
 }
@@ -42,6 +39,6 @@ int main() {
 	int kq = sumOfThreePrimes(23421);
 	clock_t finish = clock();
 	cout << kq << endl;
-	cout << "Thoi gian chuong trinh: " << finish - start << "ms" << endl;
+	cout << " Thoi gian chuong trinh: " << finish - start << "ms" << endl;
 	return 0;
 }
